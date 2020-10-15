@@ -24,12 +24,11 @@
   /* Status text */
   .Contact .status .status-text {
     color: #999;
-    margin: 0;
+    margin: 0 auto;
     display: inline-block;
   }
   
   /* Status (rounded&colored indicator) */
-  .Contact .status .status-online,
   .Contact .status .status-offline {
     display: inline-block;
     border-radius: 50%;
@@ -37,6 +36,14 @@
     height: 8px;
     margin-right: 6px;
   }
+  .Contact .status .status-online {
+    display: inline-block;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    margin-right: 6px;
+  }
+  
   
   .Contact .status .status-online {
     background: #aed581;
